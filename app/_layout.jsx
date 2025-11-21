@@ -7,6 +7,7 @@ export default function RootLayout() {
     // Asegúrate de envolver la app con el Provider
    <GameProvider>
       <Stack>
+           <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="MenuPrincipal" options={{ headerShown: false }} />
         <Stack.Screen name="Ajustes" options={{ headerShown: false }} />
          <Stack.Screen name="juego/RevealCardScreen" options={{ headerShown: false }} />
